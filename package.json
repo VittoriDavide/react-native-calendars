@@ -1,31 +1,63 @@
 {
-  "name": "react-native-calendars",
-  "version": "1.5.8",
-  "main": "src/index.js",
-  "description": "React Native Calendar Components",
-  "scripts": {
-    "test": "jasmine src/*.spec.js && npm run lint",
-    "lint": "eslint src/ example/src"
+  "_from": "react-native-calendars",
+  "_id": "react-native-calendars@1.5.4",
+  "_inBundle": false,
+  "_integrity": "sha1-2LF0HGTYQktHUY8eVdl9fLxfym4=",
+  "_location": "/react-native-calendars",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-calendars",
+    "name": "react-native-calendars",
+    "escapedName": "react-native-calendars",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wix/react-native-calendars"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-calendars/-/react-native-calendars-1.5.4.tgz",
+  "_shasum": "d8b1741c64d8424b47518f1e55d97d7cbc5fca6e",
+  "_spec": "react-native-calendars",
+  "_where": "/Users/vittori/Desktop/AXANT/repos/pandi-app/pandi",
+  "author": {
+    "name": "Wix.com"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "bugs": {
+    "url": "https://github.com/wix/react-native-calendars/issues"
   },
-  "author": "Wix.com",
-  "license": "MIT",
+  "bundleDependencies": false,
   "dependencies": {
     "prop-types": "^15.5.10",
     "xdate": "^0.8.0"
   },
+  "deprecated": false,
+  "description": "React Native Calendar Components",
   "devDependencies": {
-    "eslint": "^3.19.0",
     "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.0.0",
     "jasmine": "^2.5.2",
     "react": "16.0.0-alpha.6",
     "react-native": "0.44.0"
-  }
+  },
+  "homepage": "https://github.com/wix/react-native-calendars#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-calendars",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/react-native-calendars.git"
+  },
+  "scripts": {
+    "lint": "eslint src/ example/src",
+    "test": "jasmine src/*.spec.js && npm run lint"
+  },
+  "version": "1.5.4"
 }

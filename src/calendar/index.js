@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {
   View,
-  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 
@@ -14,9 +13,6 @@ import UnitDay from './day/interactive';
 import CalendarHeader from './header';
 import shouldComponentUpdate from './updater';
 
-//Fallback when RN version is < 0.44
-const viewPropTypes = ViewPropTypes || View.propTypes;
-
 class Calendar extends Component {
   static propTypes = {
     // Specify theme properties to override specific styles for calendar parts. Default = {}
@@ -25,7 +21,7 @@ class Calendar extends Component {
     markedDates: PropTypes.object,
 
     // Specify style for calendar container element. Default = {}
-    style: viewPropTypes.style,
+    style: PropTypes.style,
 
     selected: PropTypes.array,
 
